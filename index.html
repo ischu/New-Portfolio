@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Ian Schu Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -18,35 +18,36 @@
         <!-- "introduction" row -->
         <div class="row d-flex flex-column">
             <!-- Brief inro and splashy background plus links to github, linkedin, etc.-->
-            <div class="row">
-                <!-- HI -->
-            </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-md-8 d-flex justify-content-around">
-                    <button class="btn btn-primary">GitHub</button>
-                    <button class="btn btn-primary">LinkedIn</button>
-                    <button class="btn btn-primary">Resume</button>
+                <!-- HI -->
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, I'm Ian</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                        attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <p class="lead d-flex justify-content-around">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">GitHub</a>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">LinkedIn</a>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Resume</a>
+                    </p>
                 </div>
             </div>
-        </div>
-        <!-- "about me" row -->
-        <div class="row">
-            <!-- two columns, one with about me and links to email and CV, right side skills chart -->
-            <!-- img -->
-            <div class="col-md-6">
-                <img class="img-fluid" alt="profile pic">
-            </div>
-            <!-- skills -->
-            <div class="col-md-6">
+            <!-- "about me" row -->
+            <div class="row">
+                <!-- two columns, one with about me and links to email and CV, right side skills chart -->
+                <!-- img -->
+                <div class="col-md-6">
+                    <img class="img-fluid" alt="profile pic">
+                </div>
+                <!-- skills -->
+                <div class="col-md-6">
 
+                </div>
             </div>
-        </div>
-        <!-- portfolio section -->
-        <div class="row">
-            <!-- GALLERY BEGINS -->
-            <div class="col-md-12">
-                <!-- Nested Row 1 -->
-                <div class="row">
+            <!-- portfolio section -->
+            <div class="row  d-flex ">
+                <!-- GALLERY BEGINS -->
+                <div class="col-md-12 d-flex align-content-center flexWrap fitTentRent">
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/Word-Guess-Game/" target="_blank">
@@ -77,9 +78,6 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                <!-- Nested Row 2 -->
-                <div class="row">
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/API-fun/" target="_blank">
@@ -102,45 +100,44 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- contact me -->
-        <div class="row">
-            <!-- Column (Holds Content Box) -->
-            <div class="col-md-12 py-3">
-                <!-- Nested Row 1 (Content Heading) -->
-                <div class="row justify-content-left ">
-                    <!-- Column (Title)-->
-                    <div class="col-md-3 d-inline-flex contentHead">
-                        <h3 class="my-2">
-                            Contact
-                        </h3>
+            <!-- contact me -->
+            <div class="row">
+                <!-- Column (Holds Content Box) -->
+                <div class="col-md-12 py-3">
+                    <!-- Nested Row 1 (Content Heading) -->
+                    <div class="row justify-content-left ">
+                        <!-- Column (Title)-->
+                        <div class="col-md-3 d-inline-flex contentHead">
+                            <h3 class="my-2">
+                                Contact
+                            </h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Nested Row 2 (Form) -->
+                    <div class="row">
+                        <form class="col-md-12">
+                            <!-- form group 1 (name) -->
+                            <div class="form-group">
+                                <label for="NameInput">Name</label>
+                                <input type="name" class="form-control smInput" id="NameInput">
+                            </div>
+                            <!-- form group 2 (email) -->
+                            <div class="form-group">
+                                <label for="EmailInput">Email</label>
+                                <input type="email" class="form-control smInput" id="EmailInput">
+                            </div>
+                            <!-- form group 3 (message) -->
+                            <div class="form-group">
+                                <label for="Textarea1">Message</label>
+                                <textarea class="form-control lgInput" id="Textarea1" rows="6"></textarea>
+                            </div>
+                            <!-- button -->
+                            <button type="submit" class="btn tealWhite">Submit</button>
+                        </form>
                     </div>
                 </div>
-                <hr>
-                <!-- Nested Row 2 (Form) -->
-                <div class="row">
-                    <form class="col-md-12">
-                        <!-- form group 1 (name) -->
-                        <div class="form-group">
-                            <label for="NameInput">Name</label>
-                            <input type="name" class="form-control smInput" id="NameInput">
-                        </div>
-                        <!-- form group 2 (email) -->
-                        <div class="form-group">
-                            <label for="EmailInput">Email</label>
-                            <input type="email" class="form-control smInput" id="EmailInput">
-                        </div>
-                        <!-- form group 3 (message) -->
-                        <div class="form-group">
-                            <label for="Textarea1">Message</label>
-                            <textarea class="form-control lgInput" id="Textarea1" rows="6"></textarea>
-                        </div>
-                        <!-- button -->
-                        <button type="submit" class="btn tealWhite">Submit</button>
-                    </form>
-                </div>
             </div>
-        </div>
     </main>
 </body>
 <script src="app.js"></script>

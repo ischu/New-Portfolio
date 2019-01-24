@@ -1,0 +1,10 @@
+.flexWrap{
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.fitTentRent>div{
+    width: fit-content;
+    background-color: red;
+}
