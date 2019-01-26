@@ -26,8 +26,8 @@
                 <p class="lead d-flex justify-content-around">
                     <a class="btn btn-outline-dark btn-lg" href="https://github.com/ischu" target="_blank" role="button">
                         <i class="fab fa-github-square"></i> GitHub</a>
-                    <a class="btn btn-outline-dark btn-lg" href="https://www.linkedin.com/in/ian-schu-079624179/" target="_blank"
-                        role="button">
+                    <a class="btn btn-outline-dark btn-lg" href="https://www.linkedin.com/in/ian-schu-079624179/"
+                        target="_blank" role="button">
                         <i class="fab fa-linkedin"></i> LinkedIn</a>
                     <a class="btn btn-outline-dark btn-lg" href="Resources/Resume_2019.pdf" target="_blank" role="button">
                         <i class="fas fa-file"></i> Resume</a>
@@ -38,7 +38,7 @@
                 <!-- two columns, one with about me and links to email and CV, right side skills chart -->
                 <!-- img -->
                 <div class="col-md-6">
-                    <img class="img-fluid" alt="profile pic">
+                    <img class="img-fluid" src="Resources/Headshot.jpg" alt="profile pic">
                 </div>
                 <!-- skills -->
                 <div class="col-md-6">
@@ -48,55 +48,121 @@
             <!-- portfolio section -->
             <div class="row  d-flex ">
                 <!-- GALLERY BEGINS -->
+                <!-- Better to set this up in js so I can swap out projects easily -->
                 <div class="col-md-12 d-flex align-content-center flexWrap fitTentRent">
-                    <div class="col-md-3 m-2 pb-2">
-                        <div class="card w-100">
-                            <a href="https://ischu.github.io/Word-Guess-Game/" target="_blank">
-                                <img class="card-img-top" src="Resources/port1.png" alt="Word Guess Game">
-                                <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
-                                    <h3 class="card-title tealWhite py-3">Word Guess Game</h3>
-                                </div>
-                            </a>
+                    <div class="col-md-4">
+                        <div class="card portCard">
+                            <img class="card-img-top" src="Resources/port1.png" alt="Word Guess Game">
+                            <div class="card-img-overlay d-flex centerPos">
+                                <h2 class="card-title d-flex redText">Word Guess Game</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Vanilla JavaScript hangman game.</p>
+                                <p class="card-text text-center linkText">
+                                    <a href="https://ischu.github.io/Word-Guess-Game/" target="_blank">
+                                        https://ischu.github.io/Word-Guess-Game/
+                                    </a>
+                                    <a href="https://github.com/ischu/Word-Guess-Game" target="_blank">
+                                        https://github.com/ischu/Word-Guess-Game
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 m-2 pb-2">
-                        <div class="card w-100">
-                            <a href="https://ischu.github.io/RPG-Game/" target="_blank">
-                                <img class="card-img-top" src="Resources/port2.png" alt="gallery image one">
-                                <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
-                                    <h3 class="card-title tealWhite py-3">Star Wars Game</h3>
-                                </div>
-                            </a>
+                    <div class="col-md-4">
+                        <div class="card portCard">
+                            <img class="card-img-top" src="Resources/port2.png" alt="Star Wars Game">
+                            <div class="card-img-overlay d-flex centerPos">
+                                <h2 class="card-title d-flex redText">Star Wars Game</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">jQuery-based fighting game.</p>
+                                <p class="card-text text-center linkText">
+                                    <a href="https://ischu.github.io/RPG-Game/" target="_blank">
+                                        https://ischu.github.io/RPG-Game/
+                                    </a>
+                                    <a href="https://github.com/ischu/RPG-Game" target="_blank">
+                                        https://github.com/ischu/RPG-Game
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 m-2 pb-2">
-                        <div class="card w-100">
-                            <a href="https://ischu.github.io/TriviaGame/" target="_blank">
-                                <img class="card-img-top" src="Resources/port3.png" alt="gallery image one">
-                                <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
-                                    <h3 class="card-title tealWhite py-3">Trivia Game</h3>
-                                </div>
-                            </a>
+                    <div class="col-md-4">
+                        <div class="card portCard">
+                            <img class="card-img-top" src="Resources/port3.png" alt="Trivia Game">
+                            <div class="card-img-overlay d-flex centerPos">
+                                <h2 class="card-title d-flex redText">Trivia Game</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Simpsons-themed Trivia Game.</p>
+                                <p class="card-text text-center linkText">
+                                    <a href="https://ischu.github.io/TriviaGame/" target="_blank">
+                                        https://ischu.github.io/TriviaGame/
+                                    </a>
+                                    <a href="https://github.com/ischu/TriviaGame" target="_blank">
+                                        https://github.com/ischu/TriviaGame
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 m-2 pb-2">
-                        <div class="card w-100">
-                            <a href="https://ischu.github.io/API-fun/" target="_blank">
-                                <img class="card-img-top" src="Resources/port4.png" alt="gallery image one">
-                                <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
-                                    <h3 class="card-title tealWhite py-3">API App</h3>
-                                </div>
-                            </a>
+                    <div class="col-md-4">
+                        <div class="card portCard">
+                            <img class="card-img-top" src="Resources/port4.png" alt="Giphy App">
+                            <div class="card-img-overlay d-flex centerPos">
+                                <h2 class="card-title d-flex redText">Giphy App</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text ">App uses Giphy API and displays requested gifs on screen.</p>
+                                <p class="card-text text-center linkText">
+                                    <a href="https://ischu.github.io/API-fun/" target="_blank">
+                                        https://ischu.github.io/API-fun/
+                                    </a>
+                                    <a href="https://github.com/ischu/API-fun" target="_blank">
+                                        https://github.com/ischu/API-fun
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3 m-2 pb-2">
-                        <div class="card w-100">
-                            <a href="https://ischu.github.io/Train-Schedule/" target="_blank">
-                                <img class="card-img-top" src="Resources/port5.png" alt="gallery image one">
-                                <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
-                                    <h3 class="card-title tealWhite py-3">Train Schedule</h3>
-                                </div>
-                            </a>
+                    <div class="col-md-4">
+                        <div class="card portCard">
+                            <img class="card-img-top" src="Resources/port5.png" alt="Trivia Game">
+                            <div class="card-img-overlay d-flex centerPos">
+                                <h2 class="card-title d-flex redText">Train Scheduler</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Train Schedule generator. Stores data in real-time Firebase
+                                    database</p>
+                                <p class="card-text text-center linkText">
+                                    <a href="https://ischu.github.io/Train-Schedule/" target="_blank">
+                                        https://ischu.github.io/Train-Schedule/
+                                    </a>
+                                    <a href="https://github.com/ischu/Train-Schedule" target="_blank">
+                                        https://github.com/ischu/Train-Schedule
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card portCard">
+                            <img class="card-img-top" src="Resources/port6.png" alt="Trivia Game">
+                            <div class="card-img-overlay d-flex centerPos">
+                                <h2 class="card-title d-flex redText">SocialScape</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-center">Event API and Google Map app.</p>
+                                <p class="card-text">
+                                    <a href="https://ischu.github.io/socialscape/" target="_blank">
+                                        https://ischu.github.io/socialscape/
+                                    </a>
+                                    <a href="https://github.com/ischu/socialscape" target="_blank">
+                                        https://github.com/ischu/socialscape
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -118,6 +184,7 @@
                     <!-- Nested Row 2 (Email and Phone) -->
                     <div class="row">
                         <div class="ml-3 col-md-5">Email: ianschu7@gmail.com</div>
+                        <br>
                         <div class="ml-3 col-md-5">Phone: (434) 953-0689</div>
                     </div>
                 </div>
@@ -129,7 +196,8 @@
         <!-- to center content -->
         <div class="row  justify-content-center">
             <span class="text-center">
-                Copyright&copy; <script>document.write(new Date().getFullYear())</script> Ian Schu
+                Copyright&copy;
+                <script>document.write(new Date().getFullYear())</script> Ian Schu
             </span>
         </div>
     </div>
