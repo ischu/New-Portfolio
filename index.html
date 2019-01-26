@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ian Schu Portfolio</title>
+    <link rel="icon" type="image/ico" href="images/logo/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -18,19 +19,19 @@
         <!-- "introduction" row -->
         <div class="row d-flex flex-column">
             <!-- Brief inro and splashy background plus links to github, linkedin, etc.-->
-            <div class="row d-flex justify-content-center">
-                <!-- HI -->
-                <div class="jumbotron">
-                    <h1 class="display-4">Hello, I'm Ian</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                        attention to featured content or information.</p>
-                    <hr class="my-4">
-                    <p class="lead d-flex justify-content-around">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">GitHub</a>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">LinkedIn</a>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Resume</a>
-                    </p>
-                </div>
+            <div class="jumbotron">
+                <h1 class="display-4">Hello, I'm Ian</h1>
+                <p class="lead">Full-Stack Developer</p>
+                <hr class="my-4">
+                <p class="lead d-flex justify-content-around">
+                    <a class="btn btn-outline-dark btn-lg" href="https://github.com/ischu" target="_blank" role="button">
+                        <i class="fab fa-github-square"></i> GitHub</a>
+                    <a class="btn btn-outline-dark btn-lg" href="https://www.linkedin.com/in/ian-schu-079624179/" target="_blank"
+                        role="button">
+                        <i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a class="btn btn-outline-dark btn-lg" href="Resources/Resume_2019.pdf" target="_blank" role="button">
+                        <i class="fas fa-file"></i> Resume</a>
+                </p>
             </div>
             <!-- "about me" row -->
             <div class="row">
@@ -51,7 +52,7 @@
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/Word-Guess-Game/" target="_blank">
-                                <img class="card-img-top" src="images/port1.png" alt="Word Guess Game">
+                                <img class="card-img-top" src="Resources/port1.png" alt="Word Guess Game">
                                 <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
                                     <h3 class="card-title tealWhite py-3">Word Guess Game</h3>
                                 </div>
@@ -61,7 +62,7 @@
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/RPG-Game/" target="_blank">
-                                <img class="card-img-top" src="images/port2.png" alt="gallery image one">
+                                <img class="card-img-top" src="Resources/port2.png" alt="gallery image one">
                                 <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
                                     <h3 class="card-title tealWhite py-3">Star Wars Game</h3>
                                 </div>
@@ -71,7 +72,7 @@
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/TriviaGame/" target="_blank">
-                                <img class="card-img-top" src="images/port3.png" alt="gallery image one">
+                                <img class="card-img-top" src="Resources/port3.png" alt="gallery image one">
                                 <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
                                     <h3 class="card-title tealWhite py-3">Trivia Game</h3>
                                 </div>
@@ -81,7 +82,7 @@
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/API-fun/" target="_blank">
-                                <img class="card-img-top" src="images/port4.png" alt="gallery image one">
+                                <img class="card-img-top" src="Resources/port4.png" alt="gallery image one">
                                 <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
                                     <h3 class="card-title tealWhite py-3">API App</h3>
                                 </div>
@@ -91,7 +92,7 @@
                     <div class="col-md-3 m-2 pb-2">
                         <div class="card w-100">
                             <a href="https://ischu.github.io/Train-Schedule/" target="_blank">
-                                <img class="card-img-top" src="images/port5.png" alt="gallery image one">
+                                <img class="card-img-top" src="Resources/port5.png" alt="gallery image one">
                                 <div class="card-img-overlay text-center h-25 w-100 px-0 mt-auto mb-3">
                                     <h3 class="card-title tealWhite py-3">Train Schedule</h3>
                                 </div>
@@ -109,37 +110,30 @@
                         <!-- Column (Title)-->
                         <div class="col-md-3 d-inline-flex contentHead">
                             <h3 class="my-2">
-                                Contact
+                                Contact Me
                             </h3>
                         </div>
                     </div>
                     <hr>
-                    <!-- Nested Row 2 (Form) -->
+                    <!-- Nested Row 2 (Email and Phone) -->
                     <div class="row">
-                        <form class="col-md-12">
-                            <!-- form group 1 (name) -->
-                            <div class="form-group">
-                                <label for="NameInput">Name</label>
-                                <input type="name" class="form-control smInput" id="NameInput">
-                            </div>
-                            <!-- form group 2 (email) -->
-                            <div class="form-group">
-                                <label for="EmailInput">Email</label>
-                                <input type="email" class="form-control smInput" id="EmailInput">
-                            </div>
-                            <!-- form group 3 (message) -->
-                            <div class="form-group">
-                                <label for="Textarea1">Message</label>
-                                <textarea class="form-control lgInput" id="Textarea1" rows="6"></textarea>
-                            </div>
-                            <!-- button -->
-                            <button type="submit" class="btn tealWhite">Submit</button>
-                        </form>
+                        <div class="ml-3 col-md-5">Email: ianschu7@gmail.com</div>
+                        <div class="ml-3 col-md-5">Phone: (434) 953-0689</div>
                     </div>
                 </div>
             </div>
     </main>
 </body>
+<footer>
+    <div class="container py-2">
+        <!-- to center content -->
+        <div class="row  justify-content-center">
+            <span class="text-center">
+                Copyright&copy; <script>document.write(new Date().getFullYear())</script> Ian Schu
+            </span>
+        </div>
+    </div>
+</footer>
 <script src="app.js"></script>
 
 </html>
