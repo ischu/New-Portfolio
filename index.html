@@ -17,7 +17,7 @@
 
 <body>
 
-    <div class="jumbotron">
+    <!-- <div class="jumbotron">
         <h1 class="display-4">Hello, I'm Ian</h1>
         <p class="lead">Full-Stack Developer</p>
         <hr class="my-4">
@@ -30,8 +30,13 @@
             <a class="btn btn-outline-dark btn-lg" href="Resources/Resume_2019.pdf" target="_blank" role="button">
                 <i class="fa fa-file"></i> Resume</a>
         </p>
-    </div>
+    </div> -->
     <main class="container-fluid d-flex flex-column">
+        <!-- name -->
+        <div class ="row d-flex justify-content-around py-1" id="name">
+            <h1>Ian Schu</h1>
+            <h1>Full Stack Developer</h1>
+        </div>
         <!-- "Profile" row -->
         <div class="row">
             <div class="row" id="aboutMe">
@@ -41,13 +46,21 @@
                     <img class="img-fluid xPad15" src="Resources/Headshot.jpg" alt="profile pic" id="myFace">
                 </div>
                 <!-- about me -->
-                <div class="col-md-6 xPad15">
+                <div class="col-md-6 d-flex flex-column justify-content-around xPad15">
                     <h3>About Me</h3>
-                    <hr>
                     <p>
                             Fast learner with sights set on full-stack development career. 
                             Experienced with MERN stack. Team player with strong communication skills. Seeking an entry level development job. 
                             Passion for problem solving and building knowledge.
+                    </p>
+                    <p class="d-flex justify-content-around my-3">
+                        <a class="btn btn-outline-success btn-lg linkBtn" href="https://github.com/ischu" target="_blank" role="button">
+                            <i class="fa fa-github-square"></i> GitHub</a>
+                        <a class="btn btn-outline-primary btn-lg linkBtn" href="https://www.linkedin.com/in/ian-schu-079624179/" target="_blank"
+                            role="button">
+                            <i class="fa fa-linkedin"></i> LinkedIn</a>
+                        <a class="btn btn-outline-light btn-lg linkBtn" href="Resources/Resume_2019.pdf" target="_blank" role="button">
+                            <i class="fa fa-file"></i> Resume</a>
                     </p>
                 </div>
                 <!-- skills -->
@@ -95,7 +108,7 @@
         <div class="row  d-flex " id="portfolio">
             <!-- GALLERY BEGINS -->
             <div class="col-md-12 xPad15">
-                <h1 class="text-center redText">
+                <h1 class="text-center whiteText">
                     Portfolio
                 </h1>
             </div>
@@ -108,8 +121,8 @@
                             <h2 class="card-title d-flex overText">Word Guess Game</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">Vanilla JavaScript hangman game.</p>
-                            <p class="card-text text-center linkText">
+                            <p class="card-text whiteText">Vanilla JavaScript hangman game.</p>
+                            <p class="card-text text-center linkText d-flex flex-column justify-content-end d-flex flex-column justify-content-end">
                                 <a href="https://ischu.github.io/Word-Guess-Game/" target="_blank">
                                     Deployed
                                 </a>
@@ -127,8 +140,8 @@
                             <h2 class="card-title d-flex overText">Star Wars Game</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">jQuery-based fighting game.</p>
-                            <p class="card-text text-center linkText">
+                            <p class="card-text whiteText">jQuery-based fighting game.</p>
+                            <p class="card-text text-center linkText d-flex flex-column justify-content-end">
                                 <a href="https://ischu.github.io/RPG-Game/" target="_blank">
                                     Deployed
                                 </a>
@@ -146,8 +159,8 @@
                             <h2 class="card-title d-flex overText">Trivia Game</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">Simpsons-themed Trivia Game.</p>
-                            <p class="card-text text-center linkText">
+                            <p class="card-text whiteText">Simpsons-themed Trivia Game.</p>
+                            <p class="card-text text-center linkText d-flex flex-column justify-content-end">
                                 <a href="https://ischu.github.io/TriviaGame/" target="_blank">
                                     Deployed
                                 </a>
@@ -165,8 +178,8 @@
                             <h2 class="card-title d-flex overText">Giphy App</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">App uses Giphy API and displays requested gifs on screen.</p>
-                            <p class="card-text text-center linkText">
+                            <p class="card-text whiteText">App uses Giphy API and displays requested gifs on screen.</p>
+                            <p class="card-text text-center linkText d-flex flex-column justify-content-end">
                                 <a href="https://ischu.github.io/API-fun/" target="_blank">
                                     Deployed
                                 </a>
@@ -184,9 +197,9 @@
                             <h2 class="card-title d-flex overText">Train Scheduler</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">Train Schedule generator. Stores data in real-time Firebase
+                            <p class="card-text whiteText">Train Schedule generator. Stores data in real-time Firebase
                                 database</p>
-                            <p class="card-text linkText">
+                            <p class="card-text linkText d-flex flex-column justify-content-end">
                                 <a href="https://ischu.github.io/Train-Schedule/" target="_blank">
                                     Deployed
                                 </a>
@@ -204,8 +217,8 @@
                             <h2 class="card-title d-flex overText">SocialScape</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">Event API and Google Map app.</p>
-                            <p class="card-text linkText">
+                            <p class="card-text whiteText">Event API and Google Map app.</p>
+                            <p class="card-text linkText d-flex flex-column justify-content-end">
                                 <a href="https://ischu.github.io/socialscape/" target="_blank">
                                     Deployed
                                 </a>
@@ -223,8 +236,8 @@
                             <h2 class="card-title d-flex overText">LIRI bot</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">Node app which can return song, movie, or band data</p>
-                            <p class="card-text linkText">
+                            <p class="card-text whiteText">Node app which can return song, movie, or band data</p>
+                            <p class="card-text linkText d-flex flex-column justify-content-end">
                                 <a href="https://github.com/ischu/LIRI-Bot" target="_blank">
                                     https://github.com/ischu/LIRI-Bot
                                 </a>
@@ -239,8 +252,8 @@
                             <h2 class="card-title d-flex overText">Bamazon CLI Storefront</h3>
                         </div>
                         <div class="card-body">
-                            <p class="card-text blueText">Node app which simulates an online storefront</p>
-                            <p class="card-text linkText">
+                            <p class="card-text whiteText">Node app which simulates an online storefront</p>
+                            <p class="card-text linkText d-flex flex-column justify-content-end">
                                 <a href="https://github.com/ischu/Bamazon" target="_blank">
                                     GitHub Repository
                                 </a>
@@ -250,15 +263,15 @@
                 </div>
             </div>
         </div>
-        <!-- contact me https://github.com/ischu/LIRI-Bot -->
+        <!-- contact me -->
         <div class="row">
             <div class="col-md-12" id="contact">
                 <div class="row">
-                    <div class="col-md-12 redText">
+                    <div class="col-md-12 whiteText">
                         <h3>Contact Me</h3>
                     </div>
                 </div>
-                <div class="row yellowText">
+                <div class="row whiteText">
                     <div class="col-md-6 ">
                         <h3>email: ianschu7@gmail.com</h3>
                     </div>
